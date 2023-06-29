@@ -11,6 +11,7 @@ public class Persona {
     private String nombre;
     private int edad;
     
+    
     public Persona(String n, int e){
         nombre = n;
         edad = e;
@@ -23,6 +24,7 @@ public class Persona {
     public void establecerEdad(int n){
         edad = n;
     }
+
     
     public String obtenerNombre(){
         return nombre;
@@ -31,6 +33,7 @@ public class Persona {
     public int obtenerEdad(){
         return edad;
     }
+
     
     
 }

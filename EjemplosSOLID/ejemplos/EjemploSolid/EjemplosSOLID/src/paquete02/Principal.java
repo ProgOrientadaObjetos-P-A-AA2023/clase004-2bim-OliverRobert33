@@ -12,11 +12,15 @@ public class Principal {
 
         ArrayList<Persona> lista = new ArrayList<>();
         lista.add(p1);
-
         lista.add(p2);
+
         op1.establecerEstudiante(lista);
         op1.establecerPromedioEdades();
-        
-        System.out.println(op1.obtenerPromedioEdades());
+        op1.establecerEdadMinima();
+        op1.establecerEdadMaxima();
+
+        System.out.printf("Edad menor: %.0f\n", op1.obtenerEdadMinima());
+        System.out.printf("Edad mayor: %.0f\n", op1.obtenerEdadMaxima());
+
     }
 }

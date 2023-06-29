@@ -5,10 +5,6 @@
  */
 package paquete03;
 
-/**
- *
- * @author reroes
- */
 public class TransporteBus {
     private String cooperativaBus;
     public double tarifa;
@@ -21,7 +17,7 @@ public class TransporteBus {
         tarifa = 2.00 + 0.20;
     }
     
-    public String obtenerCooperativaBus(){
+    public String obtenerCooperativaTransvia(){
         return cooperativaBus;
     }
     
