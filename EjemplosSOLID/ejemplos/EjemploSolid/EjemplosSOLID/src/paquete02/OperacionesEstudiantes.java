@@ -6,10 +6,6 @@ package paquete02;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author reroes
- */
 public class OperacionesEstudiantes {
     private ArrayList<Persona> estudiantes;
     private double promedioEdades;
@@ -27,7 +23,7 @@ public class OperacionesEstudiantes {
     public void establecerPromedioEdades(){
         double suma = 0;
         for(Persona e: obtenerEstudiante()){
-            suma = e.obtenerEdad();
+            suma += e.obtenerEdad();
         }
         promedioEdades = suma/obtenerEstudiante().size();
     }

@@ -7,10 +7,6 @@ package paquete02;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author reroes
- */
 public class Persona {
     private String nombre;
     private int edad;
